@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEE14C17-BDA2-187C-8A5B-77EFBF40A8DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass.dll</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2017.1.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/Mono.Cecil">
+      <HintPath>C:/Program Files/Unity/Editor/Data\Managed/Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\JsonFx\Bson\BsonElementType.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Bson\BsonFormatter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Bson\BsonTokenizer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Bson\BsonTypes.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Bson\IBsonFormattable.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\CodeGen\Delegates.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\CodeGen\DynamicMethodGenerator.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\EcmaScript\EcmaScriptFormatter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\EcmaScript\EcmaScriptIdentifier.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Html\HtmlFilter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Html\HtmlFormatter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Html\HtmlOutTransformer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Html\HtmlTaxonomy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Html\HtmlTokenizer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Html\IHtmlFilterStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\CharBuffer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\EnumerableStream`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\IStream`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\ITextStream.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\ListStream`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\SequenceBuffer`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\Stream`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\StringStream.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\Subsequence`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\IO\TextReaderStream.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\JsonFormatter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\JsonGrammar.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\JsonIgnoreAttribute.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\JsonNameAttribute.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\JsonReader.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\JsonSpecifiedPropertyAttribute.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\JsonTokenizer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\JsonWriter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Json\Resolvers\JsonResolverStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\JsonML\JsonMLInTransformer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\JsonML\JsonMLOutTransformer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Linq\BaseQueryProvider.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Linq\ExpressionVisitor.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Linq\ExpressionWalker.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Linq\IQueryableReader.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Linq\IQueryTextProvider.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Linq\Query`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Linq\QueryEngine.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Linq\QueryProvider.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Markup\MarkupGrammar.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Markup\MarkupTokenType.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Markup\PrefixScopeChain.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Markup\UnparsedBlock.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Markup\WhitespaceType.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\Filters\Iso8601DateFilter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\Filters\ModelFilter`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\Filters\MSAjaxDateFilter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\ModelAnalyzer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\ModelGrammar.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\ModelReader.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\ModelReader_Query.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\ModelSubsequencer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\ModelTokenType.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\ModelWalker.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\ModelWriter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Model\Query`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\DataName.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\DataReader`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\DataReaderSettings.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\DataWriter`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\DataWriterSettings.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Exceptions.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Filters\DataFilter`2.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Filters\IDataFilter`2.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\GraphCycles\DepthCounter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\GraphCycles\GraphCycleException.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\GraphCycles\GraphCycleType.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\GraphCycles\ICycleDetector.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\GraphCycles\ReferenceSet.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\IBinaryFormattable`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\IBinaryFormatter`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\IBinaryTokenizer`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\IDataReader.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\IDataTransformer`2.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\IDataWriter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\IObjectWalker`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\ITextFormattable`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\ITextFormatter`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\ITextTokenizer`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\ITokenAnalyzer`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Providers\DataProviderUtility.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Providers\DataReaderProvider.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Providers\DataWriterProvider.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Providers\IDataReaderProvider.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Providers\IDataWriterProvider.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Resolvers\CallbackResolverStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Resolvers\CombinedResolverStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Resolvers\ConventionResolverStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Resolvers\DataContractResolverStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Resolvers\IResolverCacheContainer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Resolvers\IResolverStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Resolvers\PocoResolverStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Resolvers\ResolverCache.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\Token`1.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\TransformFormatter`2.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\TransformTokenizer`2.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Serialization\TypeCoercionUtility.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Utils\CharUtility.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Xml\Resolvers\XmlResolverStrategy.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Xml\XmlFormatter.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Xml\XmlInTransformer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Xml\XmlOutTransformer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Xml\XmlReader.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Xml\XmlTokenizer.cs" />
+    <Compile Include="Assets\Plugins\JsonFx\Xml\XmlWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\StreamingAssets\build_info.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
